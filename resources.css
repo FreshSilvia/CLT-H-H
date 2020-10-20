@@ -8,6 +8,57 @@ body{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.6;
+    background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
+    background-repeat: none;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #eeeeee;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #202020;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #779886;
+}
+
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    color: #fff;
+    background-color: #779886;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #bdd6c1;
 }
 
 .hero-image{
@@ -17,7 +68,7 @@ body{
     width: 100%;
     height: 500px;
     position: relative;
-    top: 100px;
+    top: 0px;
     padding: 5px;
     border-bottom: 5px solid #779886;
 }
@@ -139,3 +190,31 @@ body{
     background-color: white;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: #47525E;
+    padding: 20px;
+    margin-right: auto;
+}
+.socials {
+    font-size: 30px;
+    padding: 20px;
+}
+.socials a {
+    color: #47525E;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    transition: 400ms ease;
+}
+.socials a:hover {
+    transition: 400ms ease;
+    color: #eee;
+}
