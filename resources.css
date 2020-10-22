@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
     background-repeat: none;
     height: 100%;
+    font-family: "Monserrat", sans-serif;
 }
 
 header {
@@ -47,7 +48,7 @@ header {
 }
 
 .cta {
-    margin-left: 20px;
+    margin-left: 0px;
     padding: 9px 25px;
     color: #fff;
     background-color: #779886;
@@ -86,7 +87,7 @@ header {
     padding: 30px 50px;
     text-align: center;
     font-size: 45px;
-    box-shadow: 8px 12px 8px #47525E;
+    box-shadow: 8px 10px 5px #47525E;
 }
 
 .cards {
@@ -99,7 +100,7 @@ header {
 
 .cards > div {
     background-color: #779886;
-    height: 780px;
+    height: 820px;
     width: 400px;
     margin: 50px 30px;
     text-align: center;
@@ -108,7 +109,7 @@ header {
     font-size: 18px;
     padding: 30px 50px;
     border-radius: 10px;
-    box-shadow: 8px 12px 8px #47525E;
+    box-shadow: 8px 10px 5px #47525E;
 }
 
 .location{
@@ -116,7 +117,7 @@ header {
 }
 
 .cards img {
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 4px;
     object-fit: scale-down;
     background: #47525E;
@@ -124,8 +125,8 @@ header {
 
 .cards p{
     color: black;
-    margin-bottom: 15px;
-    font-weight: 800;
+    margin-bottom: 20px;
+    font-weight: 300;
     font-size: 18px;
 }
 
@@ -161,18 +162,18 @@ header {
     font-size: 18px;
     padding: 30px 50px;
     border-radius: 10px;
-    box-shadow: 8px 12px 8px #47525E;
+    box-shadow: 8px 10px 5px #47525E;
 }
 
 .financial h2{
-    margin: 50px 30px;
+    margin: 30px 30px;
     text-decoration: underline;
 }
 
 .financial p{
     color: black;
-    margin-bottom: 20px;
-    font-weight: 800;
+    margin-bottom: 30px;
+    font-weight: 300;
     font-size: 18px;
 }
 
