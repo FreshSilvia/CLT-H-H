@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
     background-repeat: none;
+    font-family: "Montserrat", sans-serif;
 }
 main {
     height: 100%;
@@ -98,6 +101,7 @@ h3 {
     color: black;
     font-style: italic;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .action {
@@ -114,7 +118,7 @@ h3 {
 .websites {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
 }
