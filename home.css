@@ -9,6 +9,7 @@ header {
   list-style: none;
   display: flex;
 }
+
 .nav__links a,
 .cta {
   font-family: "Montserrat", sans-serif;
@@ -26,7 +27,6 @@ header {
   color: #779886;
 }
 .cta {
-  margin-left: 20px;
   padding: 9px 25px;
   color: #fff;
   background-color: #779886;
@@ -45,23 +45,25 @@ header {
 
 
 h1{
-    color: #779886;
+    color: black;
     text-align: center;
     font-size: x-large;
     border-style: round;
 }
 h2{
-    color: #779886;
+    color: white;
     text-align: center;
     font-size: x-large;
+    padding-top: 75px;
 }
 h3{
-    color: #779886;
+    color: white;
     text-align: center;
     font-size: x-large;
+    padding-top: 75px;
 }
-p{
-    color: #47525e;
+.text-block p{
+    color: black;
     text-align: center;
     font-size: x-large;
     background-color: #BDD6C1;
@@ -72,7 +74,6 @@ p{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.6;
-
 }
 
 body{
@@ -80,11 +81,11 @@ body{
 }
 
 .slide{ 
-    width:2000px;
+    width:1000px;
     height:1000px;
     background: url(images/healthcare\ 1.jpg);
     margin:100px auto;
-    animation: slide 10s infinite;
+    animation: slide 30s infinite;
     border-style: inset;
   }
   
@@ -102,24 +103,38 @@ body{
       background: url(images/Screen\ Shot\ 2020-10-19\ at\ 10.12.49\ PM.png);
     }
   }
+
+  .photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+    
+  }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
+
+  /* flex allows items in div to be right next to each other */
+
+  .row {
+    display: flex;
+  }
   
-  /* Clear floats after image containers */
+
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  
   .images{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -130,6 +145,7 @@ body{
         background-color: #47525e;
         padding-left: 20px;
         padding-right: 20px;
+        justify-content: space-evenly;
  }
  footer {
   display: flex;
@@ -139,11 +155,17 @@ body{
   bottom: 0;
   width: 100%;
 }
-footer p {
+
+.footer p {
   color: #47525E;
-  padding: 20px;
+  padding: 0px;
   margin-right: auto;
-}
+  box-shadow: none ;
+  width: 100%;
+
+} 
+
+
 .socials {
   font-size: 30px;
   padding: 20px;
