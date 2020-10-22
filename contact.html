@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a27302117f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="contact.css">
-    <title>Document</title>
+    <title>CLT HH - Contact</title>
 </head>
 <body>
     <main>
         <header>
             <nav>
-                <ul class="nav__links">
+                <ul class="nav-links">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="resources.html">Resources</a></li>
                     <li><a href="stats.html">Our Misson</a></li>
                     <li><a href="donate.html">Donate</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#">Contact</a>
+            <a class="cta" href="contact.html">Contact</a>
         </header>
     <!-- Contact Form -->
         <section class="form-wrapper">
@@ -26,21 +26,25 @@
                 <h1>CONTACT US</h1>
             </div>
 
-            <div class="contact-form">
-                <div class="input-boxes">
-                    <input type="text" class="input" placeholder="Name" required>
-                    <input type="text" class="input" placeholder="Phone Number" required>
-                    <input type="text" class="input" placeholder="Email Address" required>
+            <form id="contact-form">
+                <div id="inputs">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Your Name" id="name" required>
+                    <label for="phone"></label>
+                    <input type="text" placeholder="Your Phone Number" id="Phone" required>
+                    <label for="email"></label>
+                    <input type="email" placeholder="Your Email" id="email" required>    
                 </div>
 
-                <div class="message">
-                    <textarea placeholder="Comments..."></textarea>
-                    <button type="submit" class="btn contact-button">
-                        <i class="fas fa-envelope"></i>
-                        Send
+                <div id="comment-box">
+                    <textarea placeholder="Comment..."></textarea>
+
+                    <button type="submit">
+                        <p>Send</p>
                     </button>
                 </div>
-            </div>
+            </form>
+            
         </section>
     </main>    
     <footer>

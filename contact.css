@@ -16,12 +16,12 @@ header {
     background-color: #eeeeee;
 }
   
-.nav__links {
+.nav-links {
     list-style: none;
     display: flex;
 }
   
-.nav__links a,
+.nav-links a,
 .cta {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -29,15 +29,15 @@ header {
     text-decoration: none;
 }
   
-.nav__links li {
+.nav-links li {
     padding: 0px 20px;
 }
   
-.nav__links li a {
+.nav-links li a {
     transition: all 0.3s ease 0s;
 }
   
-.nav__links li a:hover {
+.nav-links li a:hover {
     color: #779886;
 }
   
@@ -49,71 +49,78 @@ header {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 600ms ease 200ms;
 }
   
 .cta:hover {
+    transition: all 0.3s ease 200ms;
     background-color: #bdd6c1;
 }
 
 /* Form CSS */
 
 .form-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 500px;
-    background: #eeeeee;
-    padding: 30px;
+    margin: auto;
+    max-width: 600px;
+    background: #bdd6c1;
+    padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(119, 152, 134, 1);
 }
 
-.form-wrapper .form-title h1 {
+.form-title{
     color: #47525E;
     text-decoration: uppercase;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 25px;
+    letter-spacing: 1ch;
 }
 
-.contant-form {
-    display: inline;
+.form-title h1 {
+    font-size: 40px;
 }
 
-.input-boxes {
-    display: inline;
-    margin-right: 4%;
-}
-
-.message {
-    display: inline;
-}
-
-.input-boxes, .message {
-    width: 48%;
-}
-
-.input-boxes .input, .message textarea {
-    margin: 10px 0;
-    background: transparent;
-    border: 0px;
-    border-bottom: 2px solid #47525E;
-    padding: 10px;
-    color: black;
-    width: 100%;
-}
-
-.message textarea {
-    height: 215px;
-}
-
-.message button {
-    text-align: center;
-    padding: 15px;
+#inputs input {
+    background: #eee;
+    border: solid #47525E 2px;
     border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#comment-box textarea {
+    background: #eee;
+    padding: 15px;
+    border: solid #47525E 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+#comment-box button {
+    /* float: right; */
+    margin-top: 5px;
+    padding: 9px 25px;
+    color: #47525E;
+    background-color: #eee;
+    border: solid #47525E 2px;
+    border-radius: 5px;
+    width: 500px;
+    cursor: pointer;
+    transition: all 600ms ease 200ms;
+}
+
+#comment-box button p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#comment-box button:hover {
+    background-color: white;
+    transition: all 600ms ease 200ms;
 }
 
 /* Footer Styling */
