@@ -5,7 +5,14 @@ header {
   padding: 30px 10%;
   background-color: #eeeeee;
 }
-.nav__links {
+ul{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    padding-top: 75px;
+    justify-content: space-evenly;
+}
+.nav__links  {
   list-style: none;
   display: flex;
 }
